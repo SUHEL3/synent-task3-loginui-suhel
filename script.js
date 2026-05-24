@@ -11,3 +11,20 @@ eye.onclick = function(){
     }
 
 }
+
+
+let form = document.getElementById("loginForm");
+let email = document.getElementById("email");
+
+form.onsubmit = function(event){
+
+    event.preventDefault();
+
+    if(email.value == "" || pass.value == ""){
+        alert("Please fill all fields");
+    }
+    else{
+        alert("Login Successful");
+    }
+
+}

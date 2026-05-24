@@ -69,3 +69,16 @@ button{
 button:hover{
     background-color: #273c75;
 }
+
+input:focus{
+    outline: none;
+    border: 2px solid #3742fa;
+}
+
+.login-box{
+    transition: 0.3s;
+}
+
+.login-box:hover{
+    transform: scale(1.02);
+}
